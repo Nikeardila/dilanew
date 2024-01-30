@@ -1,57 +1,54 @@
 body {
-  background: #f9f8f8;
+  background: white;
   font-family: sans-serif;
 }
 
 .kalkulator {
   width: 335px;
-  background: #ebd8f1;
+  background-color: palevioletred;
   margin: 100px auto;
   padding: 10px 20px 50px 20px;
   border-radius: 5px;
-  box-shadow: 0px 10px 20px 0px #d1d1d1;
-}
-
-.bil {
-  width: 300px;
-  margin: 5px;
-  border: none;
-  font-size: 16pt;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.opt {
-  font-size: 15pt;
-  border: none;
-  width: 215px;
-  margin: 5px;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.tombol {
-  background: #df89f4;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  color: #eee;
-  font-size: 15pt;
-  border-bottom: 4px solid #ce4cd7;
-}
-
-.brand {
-  color: #eee;
-  font-size: 11pt;
-  float: right;
-  text-decoration: none;
-  margin: 12px;
+  box-shadow: 0px 10px 20px 0px;
 }
 
 .judul {
   text-align: center;
-  color: #eee;
-  font-weight: normal;
+  text-decoration: none;
+  font-size: normal;
+  color: black;
+}
+
+.bil {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16pt;
+}
+
+.opt {
+  width: 215px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15pt;
+}
+
+.tombol {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15pt;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  background-color: rgb(243, 182, 238);
+}
+
+.brand {
+  font-size: 12pt;
+  float: right;
+  color: black;
+  margin: 5px;
 }
